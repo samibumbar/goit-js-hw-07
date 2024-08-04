@@ -41,3 +41,16 @@
 .gallery__link:hover {
   cursor: zoom-in;
 }
+/* Stilizare pentru caption-ul lightbox-ului */
+.simple-lightbox .slbCaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7); /* Fundal semi-transparent */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}

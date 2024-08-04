@@ -38,7 +38,7 @@ function onGalleryItemClick(event) {
 
   const instance = basicLightbox.create(
     `
-        <img src="${imageUrl}" style="display: block; width: calc(100% ); max-width: 1140px; margin-top: 70px;">
+        <img src="${imageUrl}" style="display: block; width: calc(100% ); max-width: 1140px; margin-top: 55px;">
     `,
     {
       onShow: (instance) => {
